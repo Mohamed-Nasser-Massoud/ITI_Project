@@ -1,0 +1,15 @@
+{
+  "source_notebook": "notebooks/rag_pipeline.ipynb",
+  "source_notebook_input": "Downloads/iti-gp (2).ipynb",
+  "source_output": "Downloads/results (3)",
+  "source_pdf": "Hands-On_Machine_Learning_with_Scikit-Learn_Keras_and_Tens.pdf",
+  "records": 1157,
+  "chunks": 2687,
+  "chunk_size": 900,
+  "chunk_overlap": 150,
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "embedding_dimension": 384,
+  "collection_name": "hands_on_ml_book",
+  "distance": "cosine",
+  "generation_model": "llama3.2:3b"
+}

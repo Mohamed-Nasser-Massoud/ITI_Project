@@ -1,0 +1,25 @@
+# Ignore local environments, downloaded models, and generated runtime data.
+.venv/
+.model_cache/
+.tools/
+.ollama_models/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.log
+*.ses
+.env
+.env.*
+!.env.example
+
+# Keep the source corpus private and out of the repository.
+data/raw/*
+!data/raw/.gitkeep
+*.pdf
+
+# The persisted vector store is generated from the notebook and may be large.
+backend/data/vector_store/*
+!backend/data/vector_store/.gitkeep
+
+# Notebook transient files.
+.ipynb_checkpoints/

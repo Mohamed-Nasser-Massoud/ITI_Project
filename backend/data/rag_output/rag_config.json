@@ -1,0 +1,10 @@
+{
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "generation_model_used_in_kaggle": "google/flan-t5-base",
+  "backend_generation_model": "Set your local Ollama model in the backend .env, for example llama3.2:3b",
+  "collection_name": "hands_on_ml_book",
+  "chunk_size": 900,
+  "chunk_overlap": 150,
+  "top_k": 4,
+  "vector_store_path": "data/vector_store"
+}
